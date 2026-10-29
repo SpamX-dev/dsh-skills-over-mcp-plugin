@@ -1,0 +1,17 @@
+{
+  "name": "skill-mcp-fixture",
+  "description": "Reference MCP server that publishes skills as skill:// resources (for testing dsh-skill-mcp)",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "main": "src/server.mjs",
+  "bin": {
+    "skill-mcp-fixture": "src/server.mjs"
+  },
+  "scripts": {
+    "start": "node src/server.mjs"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^2.2.0"
+  }
+}
